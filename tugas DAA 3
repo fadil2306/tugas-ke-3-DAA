@@ -1,0 +1,194 @@
+Satrio = ["fadil", "NIM 2023071050", "Informatika"]
+(Satrio)
+
+['fadil', 'NIM 2023071050', 'Informatika']
+
+Mahasiswa = [2023071050, 2023071049, 2023071048, 2023071047, 2023071046]
+
+print("NIM Mahasiswa ke-1:", Mahasiswa[0])
+print("NIM Mahasiswa ke-2:", Mahasiswa[1])
+print("NIM Mahasiswa ke-3:", Mahasiswa[2])
+print("NIM Mahasiswa ke-4:", Mahasiswa[3])
+print("NIM Mahasiswa ke-5:", Mahasiswa[4])
+
+#Saya Menggunakan print supaya bisa memanggil banyak mahasiswa, karna kalo tidak memakai print hanya nama terakhir yg akan ter input
+
+NIM Mahasiswa ke-1: 2023071050
+NIM Mahasiswa ke-2: 2023071049
+NIM Mahasiswa ke-3: 2023071048
+NIM Mahasiswa ke-4: 2023071047
+NIM Mahasiswa ke-5: 2023071046
+
+
+Universitas = ["Universitas Brawijaya", "Universitas Indonesia", "Universitas Diponogoro", "Universitas Airlangga", "Universitas Pembangunan Jaya"]
+
+print("Nama Universitas ke-1:", Universitas[0])
+print("Nama Universitas ke-2:", Universitas[1])
+print("Nama Universitas ke-3:", Universitas[2])
+print("Nama Universitas ke-4:", Universitas[3])
+print("Nama Universitas ke-5:", Universitas[4])
+
+#Saya Menggunakan print supaya bisa memanggil banyak Universitas, karna kalo tidak memakai print hanya nama terakhir yg akan ter input
+
+Nama Universitas ke-1: Universitas Brawijaya
+Nama Universitas ke-2: Universitas Indonesia
+Nama Universitas ke-3: Universitas Diponogoro
+Nama Universitas ke-4: Universitas Airlangga
+Nama Universitas ke-5: Universitas Pembangunan Jaya
+
+Nama = ["fadil", "rais", "leo", "dane", "rama"]
+NIM = [2023071050, 2023071049, 2023071048, 2023071047, 2023071046]
+Prodi = ["Teknik Informatika", "Teknik Informatika", "Teknik Pemikat Cowo", "Teknik Cabut", "Teknik Pemikat Cewe"]
+
+print(f"Nama: {Nama[0]}, NIM: {NIM[0]}, Prodi: {Prodi[0]}")
+print(f"Nama: {Nama[1]}, NIM: {NIM[1]}, Prodi: {Prodi[1]}")
+print(f"Nama: {Nama[2]}, NIM: {NIM[2]}, Prodi: {Prodi[2]}")
+print(f"Nama: {Nama[3]}, NIM: {NIM[3]}, Prodi: {Prodi[3]}")
+print(f"Nama: {Nama[4]}, NIM: {NIM[4]}, Prodi: {Prodi[4]}")
+
+#Saya Menggunakan print supaya bisa memanggil banyak mahasiswa, karna kalo tidak memakai print hanya nama terakhir yg akan ter input
+
+Nama: fadil, NIM: 2023071050, Prodi: Teknik Informatika
+Nama: rais, NIM: 2023071049, Prodi: Teknik Informatika
+Nama: leo, NIM: 2023071048, Prodi: Teknik Pemikat Cowo
+Nama: dane, NIM: 2023071047, Prodi: Teknik Cabut
+Nama: rama, NIM: 2023071046, Prodi: Teknik Pemikat Cewe
+
+Mahasiswa = ["fadil", 2023071050, "Informatika", 2023]
+Mahasiswa [0:4]
+
+['fadil', 2023071050, 'Informatika', 2023]
+
+Mahasiswa = ["fadil", "rais", "leo", "dane", "rama"]
+
+for amahasiswa in Mahasiswa:
+    print(amahasiswa + " Universitas Pembangunan Jaya")
+
+fadil Universitas Pembangunan Jaya
+Rais Universitas Pembangunan Jaya
+leo Universitas Pembangunan Jaya
+dane Universitas Pembangunan Jaya
+rama Universitas Pembangunan Jaya
+
+
+Mahasiswa = ("fadil","rais","leo","dane","rama")
+Mahasiswa[0]
+
+Satrio
+
+Mahasiswa[0:]
+
+('fadil','rais','leo','dane','rama')
+
+AngkaPertama = 100
+AngkaKedua = (200, 400, 600)
+AngkaKetiga = 300
+AngkaKeempat = (400, 800)
+
+print(AngkaPertama)
+
+100
+
+AngkaSemua = (
+    100,
+    (200, 400, 600),
+    300,
+    (400, 800)
+)
+
+
+print(AngkaSemua)
+
+(100, (200, 400, 600), 300, (400, 800))
+
+Mahasiswa = {
+    "fadil": {
+        "NIM": 2023071050,
+        "Prodi": "Informatika",
+        "Universitas": "Universitas Pembangunan Jaya"
+    },
+    "Rais": {
+        "NIM": 2023071049,
+        "Prodi": "Informatika",
+        "Universitas": "Universitas Pembangunan Jaya"
+    },
+    "leo": {
+        "NIM": 2023071048,
+        "Prodi": "Informatika",
+        "Universitas": "Universitas Pembangunan Jaya"
+    },
+    "dane": {
+        "NIM": 2023071047,
+        "Prodi": "Informatika",
+        "Universitas": "Universitas Pembangunan Jaya"
+    },
+    "rama": {
+        "NIM": 2023071046,
+        "Prodi": "Informatika",
+        "Universitas": "Universitas Pembangunan Jaya"
+    },
+}
+# jika hanya ingin manggil satu
+nama_mahasiswa = "fadil"
+info = Mahasiswa[nama_mahasiswa]
+print(f"Nama: {nama_mahasiswa}, NIM: {info['NIM']}, Prodi: {info['Prodi']}, Universitas: {info['Universitas']}")
+
+# jika ingin memanggil semua
+
+for nama, info in Mahasiswa.items():
+    print(f"Nama: {nama}, NIM: {info['NIM']}, Prodi: {info['Prodi']}, Universitas: {info['Universitas']}")
+
+Nama: fadil, NIM: 2023071050, Prodi: Informatika, Universitas: Universitas Pembangunan Jaya
+Nama: Rais, NIM: 2023071049, Prodi: Informatika, Universitas: Universitas Pembangunan Jaya
+Nama: leo, NIM: 2023071048, Prodi: Informatika, Universitas: Universitas Pembangunan Jaya
+Nama: Dane, NIM: 2023071047, Prodi: Informatika, Universitas: Universitas Pembangunan Jaya
+Nama: rama, NIM: 2023071046, Prodi: Informatika, Universitas: Universitas Pembangunan Jaya
+
+[70]
+0s
+
+def pisahkan_warna(kata_kata):
+
+
+  warna_kata = {'yellow': set(), 'red': set()}
+  warna_dominan = {'yellow': {'dandelions', 'leaves'}, 'red': {'blood', 'rose', 'fire hydrant'}}
+
+  for kata in kata_kata:
+    for warna in warna_dominan:
+      if kata in warna_dominan[warna]:
+        warna_kata[warna].add(kata)
+
+  return warna_kata
+
+kata_kata = {'blood', 'rose', 'dandelions', 'fire hydrant', 'leaves'}
+hasil = pisahkan_warna(kata_kata)
+print(hasil)
+
+{'yellow': {'dandelions', 'leaves'}, 'red': {'fire hydrant', 'rose', 'blood'}}
+
+import pandas as pd
+
+data = [
+    ["1", "Informatika", 50, 30, 20],
+    ["2", "Sistem Informasi", 55, 30, 25],
+    ["3", "Teknik Sipil", 40, 30, 10]
+]
+
+JanganNyolong = pd.DataFrame(data, columns=["No", "Prodi", "Mahasiswa", "Laki-laki", "Perempuan"])
+
+print(JanganNyolong)
+
+No             Prodi  Mahasiswa  Laki-laki  Perempuan
+0  1       Informatika         50         30         20
+1  2  Sistem Informasi         55         30         25
+2  3      Teknik Sipil         40         30         10
+
+
+import numpy as np
+
+AngkaGua = np.array([[100, 200, 300], [700, 600, 500], [900, 1000, 800]])
+print(AngkaGua)
+
+[[ 100  200  300]
+ [ 700  600  500]
+ [ 900 1000  800]]
